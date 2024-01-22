@@ -17,6 +17,9 @@ button {
 a {
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 
 .header {
   display: flex;
@@ -85,7 +88,7 @@ a {
   font-weight: 300;
   line-height: 1.36;
 
-  max-width: 280px;
+  max-width: 270px;
   margin: 0 auto 15px;
   color: #f7f3f2;
 }
@@ -96,4 +99,196 @@ a {
   color: #fff;
   min-width: 280px;
   height: 40px;
+}
+
+.how-it-works {
+  padding: 35px 10px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secondary-headline {
+  font-size: 1.375em;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.step-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.step-list_item:nth-child(1) {
+  background-image: url(../images/steps/step1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 90%;
+}
+
+.step-list_item:nth-child(2) {
+  background-image: url(../images/steps/step2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 90%;
+}
+
+.step-list_item:nth-child(3) {
+  background-image: url(../images/steps/step3.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 90%;
+}
+
+.step-list_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  width: 300px;
+  height: 240px;
+  padding: 0 30px 16px 20px;
+  border-radius: 4px;
+}
+
+.step-number {
+  border-radius: 40px;
+  min-height: 20px;
+  width: 70px;
+  background: #ff4e50;
+  color: #fff;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.63em;
+  letter-spacing: 0.25em;
+  line-height: 0;
+  font-weight: 300;
+  margin-block: 0;
+  margin-bottom: 15px;
+}
+
+.step-title {
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.625em;
+  margin-bottom: 10px;
+}
+
+.step-subtitle {
+  color: #e3e3e3;
+  font-weight: 300;
+  font-size: 0.875em;
+}
+
+.partner-section {
+  padding: 36px 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* .partner-icon-bg {
+  background-color: #ff4e50;
+  border-radius: 50%;
+} */
+
+.partner-list {
+  padding: 0 22px;
+}
+
+.partner-img {
+  margin-bottom: 17px;
+}
+
+.partner-name {
+  margin-bottom: 12px;
+  font-size: 1.125em;
+}
+
+.partner-desc {
+  color: #666666;
+  margin-bottom: 16px;
+}
+
+.btn-secondary {
+  min-width: 280px;
+  height: 40px;
+  border-color: #ff4e50;
+  color: #ff4e50;
+  font-size: 1.125em;
+}
+
+.activity-section {
+  padding: 35px 10px 0;
+  text-align: center;
+}
+
+.activity-section .secondary-headline {
+  margin: 0 10px 33px;
+}
+
+.activity-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.activity-list_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 120px;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 1.25em;
+  font-weight: 300;
+  padding: 0 25px;
+}
+
+.activity-list_item:nth-child(1) {
+  background-image: url(../images/activities/group-4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 90%;
+}
+.activity-list_item:nth-child(2) {
+  background-image: url(../images/activities/group-5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+}
+.activity-list_item:nth-child(3) {
+  background-image: url(../images/activities/group-6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+}
+.activity-list_item:nth-child(4) {
+  background-image: url(../images/activities/group-7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 90%;
+}
+.activity-list_item:nth-child(5) {
+  background-image: url(../images/activities/group-8.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 90%;
+}
+.activity-list_item:nth-child(6) {
+  background-image: url(../images/activities/group-9.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+}
+.activity-list_item:nth-child(7) {
+  background-image: url(../images/activities/group-10.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 10%;
 }
