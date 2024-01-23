@@ -68,6 +68,17 @@ ul {
   color: #fff;
 }
 
+@media (min-width: 768px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 50px 148px;
+  }
+  .header-buttons {
+    margin-bottom: 0;
+  }
+}
+
 .intro {
   background-image: linear-gradient(to top, #ff4e50, #f9d423);
   text-align: center;
